@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.form {
+    width: 500px;
+    margin: 30px auto;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 10px 40px rgb(99, 95, 95);
+    border-radius: 5px;
+}
+
+.form__header {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(81, 89, 94);
+}
+
+.form__header img {
+    width: 20%;
+    margin-bottom: 15px;
+    
+}
+
+.form__subheader {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(81, 89, 94);
+}
+
+.form__section {
+    margin-bottom: 25px;
+}
+
+.form__section--name, 
+.form__section--companion,
+.form__section--dates,
+.form__section--roomtype,
+.form__section--marriage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__field label{
+    color: rgb(125, 140, 148);
+    font-size: 12px;
+    margin: 5px 0 0 2.5px;
+}
+
+.form__field input,
+.form__field select {
+    border: none;
+    border-radius: 2.5px;
+    height: 25px;
+    background-color: rgb(237, 242, 245);
+    color: rgb(81, 89, 94);
+}
+
+.form__field input:focus,
+.form__field select:focus {
+    outline: none;
+}
+
+.form__section--name .form__field {
+    width: calc(95% / 2);
+}
+
+.form__section--companion .form__field {
+    width: calc(90% / 3);
+}
+
+.form__section--dates .form__field {
+    width: calc(95% / 2);
+}
+
+.form__field--radio {
+    display: flex;
+}
+
+.form__field--radio label {
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.form__field--radio input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    background-color: #c5a880;
+}
+
+.form__field input[type="date"] {
+    color: rgb(125, 140, 148);
+}
+
+.form input[type="submit"] {
+    border: none;
+    background: #c5a880;
+    width: 100%;
+    height: 35px;
+    border-radius: 2.5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+}
+
+
+
+.form input[type="submit"]:hover {
+    background: #c7b499;
+}

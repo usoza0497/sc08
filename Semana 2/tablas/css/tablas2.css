@@ -1,0 +1,69 @@
+table {
+    margin: 0 auto;
+    border-spacing: 5px;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+.cell-1 {
+    background: #f7ead5;
+}
+
+.cell-2 {
+    background: #ff2518;
+}
+
+.cell-3 {
+    background: #062cfd;
+}
+
+.cell-4 {
+    background: #000000;
+}
+
+.cell-5 {
+    background: #3f6edf;
+}
+
+.cell-6 {
+    background: #a9372b;
+}
+
+.cell-7 {
+    background: #1ae8fc;
+}
+
+.cell-8 {
+    background: #2a7c55;
+}
+
+.cell-9 {
+    background: #674196;
+}
+
+.cell-10 {
+    background: #a9372b;
+}
+
+.cell-11 {
+    background: #ffe2c4;
+}
+
+.cell-12 {
+    background: #fff02f;
+}
+
+.cell-13 {
+    background: #1ae8fc;
+}
+
+.cell-14 {
+    background: #ffce29;
+}
+
+.cell-15 {
+    background: #e52e3c;
+}

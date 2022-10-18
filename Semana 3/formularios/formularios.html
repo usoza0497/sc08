@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Hotel</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/formularios.css">
+</head>
+<body>
+    <form class="form" id="form__booking">
+        <div class="form__header">
+            <img src="img/logo 1.png" alt="Logo Hotel">
+            <h1>Formulario Reservacion</h1>
+        </div>
+        <div class="form__section">
+            <h2 class="form__subheader">Nombre Completo</h2>
+            <div class="form__section--name">
+                <div class="form__field">
+                    <input type="text" id="nombre" required>
+                    <label for="nombre">Nombre</label>
+                </div>
+                <div class="form__field">
+                    <input type="text" id="apellido" required>
+                    <label for="apellido">Apellido</label>
+                </div>
+            </div>
+        </div>
+        <div class="form__section">
+            <h2 class="form__subheader">Cantidad Acompañantes</h2>
+            <div class="form__section--companion">
+                <div class="form__field">
+                    <input type="number" id="acompañante" min="0" max="3">
+                    <label for="acompañante">Adultos</label>
+                </div>
+                <div class="form__field">
+                    
+                    <input type="number" id="ninos" min="0" max="3">
+                    <label for="ninos">Niños</label>
+                </div>
+                <div class="form__field">
+                    <input type="number" id="mascota" min="0" max="2">
+                    <label for="mascota">Mascotas</label>
+                </div>
+            </div>
+        </div>
+        <div class="form__section">
+            <h2 class="form__subheader">Tiempo de Instancia</h2>
+            <div class="form__section--dates">
+                <div class="form__field">
+                    <input type="date" id="entrada" required>
+                    <label for="entrada">Fecha Entrada</label>
+                </div>
+                <div class="form__field">                    
+                    <input type="date" id="salida" required>
+                    <label for="salida">Fecha Salida</label>
+                </div>
+            </div>
+        </div>
+        <div class="form__section">
+            <h2 class="form__subheader">Tipo Habitacion</h2>
+            <div class="form__section--roomtype">
+                <div class="form__field">
+                    <select id="cuarto" required>
+                        <option value="">-Seleccione un tipo-</option>
+                        <option value="">Suite</option>
+                        <option value="">Junior Suite</option>
+                        <option value="">Gran Suite</option>
+                        <option value="">Suite Principal</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="form__section">
+            <h2 class="">Paquete Matrimonial</h2>
+            <div class="form__section--marriage">
+                <div class="form__field">
+                    <div class="form__field--radio">
+                        <label for="marriage-y">Si</label>
+                        <input type="radio" id="marriage-y" name="drone">
+                    </div>
+                    <div class="form__field--radio">
+                        <label for="marriage-n">No</label>
+                        <input type="radio" id="marriage-n" name="drone">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <input type="submit"id="form__booking" value="Reservar">
+    </form>
+</body>
+</html>

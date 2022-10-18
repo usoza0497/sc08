@@ -1,0 +1,92 @@
+#table1, #table2 {
+    border: 1px solid #000;
+    margin: 50px auto;
+}
+#table1 td {
+    width: 50px;
+    height: 100px;
+    border: 1px solid #000;
+} 
+
+.red {
+    background-color: #ff2517;
+}
+
+.antiquewhite {
+    background-color: 
+    #f1f2da;
+}
+
+tr:first-child td:nth-child(3) {
+    background-color: 
+    #d1b38b;
+}
+
+tr:first-child td:nth-child(4) {
+    background-color: 
+    #1ae8fc;
+}
+
+tr:nth-child(2) td:first-child {
+    background-color: #ece3a9;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+    background-color: #674196;
+}
+
+tr td:nth-child(7) {
+    background-color: #eefcfc;
+}
+
+tr td:nth-child(8) {
+    background-color: #06747e;
+}
+
+tr td:nth-child(9) {
+    background-color: 
+    #fde4c2;
+}
+
+tr td:nth-child(10) {
+    background-color: 
+    #046e0e;
+}
+
+tr td:nth-child(11) {
+    background-color: #eee08c;
+}
+
+tr td:nth-child(12) {
+    background-color: #ff49fd;
+}
+
+tr td:nth-child(13) {
+    background-color: 
+    #ff2515;
+}
+
+tr td:nth-child(14) {
+    background-color: #f1f2da;
+}
+
+tr td:nth-child(15) {
+    background-color: #d1b38b;
+}
+
+tr td:nth-child(16) {
+    background-color: #1ae8fc;
+}
+
+tr td:nth-child(17) {
+    background-color: 
+    #3f6edf;
+}
+
+tr td:nth-child(18) {
+    background-color: #59979f;
+}
+
+tr td:nth-child(19) {
+    background-color: #f295eb;
+}
