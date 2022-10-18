@@ -1,3 +1,12 @@
+/* GLOBALES **/
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-black2: #1f1f1f;
+    --color-green: #00ff43;
+}
+
 html {
     box-sizing: border-box;
     font-size: 10px;
@@ -5,4 +14,145 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body {
+    background: var(--color-black);
+    color: var(--color-white);
+    padding: 3rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+/* HEADER **/
+
+.header__logo {
+    display: block;
+    font-size: clamp(2.5rem, 8vw - 1rem, 4rem);
+    margin-bottom: 2rem;
+    transition-property: color;
+    transition-duration: .3s;
+}
+
+.header__logo:hover {
+    color: var(--color-green);
+}
+
+.header__h1 {
+    text-align: center;
+    font-size: clamp(1.75rem, 6.7vw - 1.2rem, 3rem);
+    margin-bottom: 2rem;
+}
+
+/* CONTENEDOR PROYECTO **/
+
+.proyectos {
+    border: 3px solid var(--color-white);
+    border-radius: .5rem;
+    min-width: 30rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+
+/* TARJETA PROYECTO **/
+
+.proyectos__tarjeta {
+    border: 2px solid var(--color-white);
+    background-color: var(--color-black);
+    width: 100%;
+    min-width: 15rem;
+    max-width: 30rem;
+    padding: 3rem;
+    height: 35rem;
+    margin: 1rem 0;
+}
+
+.proyectos__tarjeta:hover {
+    background-color: var(--color-black2);
+}
+
+.proyectos__tarjeta:active {
+    background-color: var(--color-black2);
+}
+
+.tarjeta__date{
+    color: var(--color-black);
+    border-radius: .2rem;
+    background-color: var(--color-white);
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .3rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.tarjeta__encabezado {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.tarjeta__separator {
+    margin-bottom: 2rem;
+}
+
+.tarjeta__link {
+    display: block;
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    font-weight: 700;
+}
+
+.tarjeta__link:hover {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    
+}
+
+.tarjeta__link:active {
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+
+/* FOOTER **/
+.footer {
+    margin-top: 2rem;
+    height: 4rem;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: clamp(1rem, 5.3vw - 1.3rem, 2rem);
+
+}
+
+/* OTHER RESOLUTION | TWEAKS **/
+
+@media (min-width: 707px) {
+    .proyectos__tarjeta {
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 1022px) {
+    body {
+        padding: 3rem 8rem;
+    }
+}
+
+@media (min-width: 2200px) {
+    body {
+        padding: 3rem 15rem;
+    }
 }
