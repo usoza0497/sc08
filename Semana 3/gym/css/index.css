@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #222222;
+    padding: 15px 20px 15px 50px;
+}
+
+#navegacion-principal {
+    display: flow-root;
+}
+
+#navegacion-principal a {
+    color: #999999;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#navegacion-principal a:hover {
+    color: #EFAC43;
+}
+
+.flotar-izquierda {
+    float: left;
+}
+
+.flotar-derecha {
+    float: right;
+}
+
+.fondo-negro {
+    background-color: #000;
+}
+
+.img-banner {
+    background-image: url('../img/gym-machines.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+#banner_inicio {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#banner_inicio h1 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+#banner_inicio p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#banner_inicio button {
+    background: #EFAC43;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#banner_inicio button:hover {
+    background: #F39C12;
+}
+
+#beneficios {
+    display: flow-root;
+}
+
+#beneficios .img-beneficios {
+    background-image: url('../img/gym-man.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 40%;
+}
+
+#beneficios .lista-beneficios {
+    width: 60%;
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 600px;
+    position: relative;
+}
+
+#beneficios .lista-beneficios h2 {
+    color: #EFAC43;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#beneficios .lista-beneficios ul li {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#beneficios .lista-beneficios .cuadro-decoracion {
+    width: 40px;
+    height: 40px;
+    background-color: #EFAC43;
+    position: absolute;
+}
+
+#beneficios .lista-beneficios .primer-cuadro {
+    bottom: 80px;
+    right: 0;
+}
+
+#beneficios .lista-beneficios .segundo-cuadro {
+    bottom: 40px;
+    right: 40px;
+}
+
+#beneficios .lista-beneficios .tercer-cuadro {
+    bottom: 0;
+    right: 0;
+}
