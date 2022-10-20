@@ -64,7 +64,7 @@ a {
 }
 
 .proyectos__container {
-    border: .6rem solid var(--color-white);
+    border: .5rem solid var(--color-white);
     border-radius: .5rem;
     min-width: 30rem;
     width: 100%;
