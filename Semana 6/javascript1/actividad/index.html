@@ -7,15 +7,21 @@
     <title>Javascript 1 | Actividad</title>
 </head>
 <body>
-    <form action="">
-        <label for="txtNombreProducto">Nombre</label>
-        <input type="text" id="txtNombreProducto">
+    <form>
+        <div>
+            <label for="txtNombreProducto">Nombre</label>
+            <input type="text" id="txtNombreProducto">
+        </div>
 
-        <label for="txtPrecioProducto">Precio</label>
-        <input type="number" id="txtPrecioProducto">
+        <div>
+            <label for="txtPrecioProducto">Precio</label>
+            <input type="number" id="txtPrecioProducto">
+        </div>
 
-        <label for="txtDescripcionProducto">Descripcion</label>
-        <input type="text" id="txtDescripcionProducto">
+        <div>
+            <label for="txtDescripcionProducto">Descripcion</label>
+            <input type="text" id="txtDescripcionProducto">
+        </div>
 
         <input type="button" id="btnAgregar" value="Agregar">
     </form>
@@ -24,12 +30,14 @@
             <tr>
                 <th>Nombre</th>
                 <th>Precio</th>
+                <th>Descripcion</th>
             </tr>
         </thead>
         <tbody>
 
         </tbody>
     </table>
+    <script src="js/servicio.js"></script>
     <script src="js/controlador.js"></script>
 </body>
 </html>
