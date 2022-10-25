@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Ejercicio | Validar Formulario</title>
+</head>
+<body>
+    <form id="formInscripcion">
+        <div class="container">
+            <div class="field">
+                <label for="txtNombre">Nombre</label>
+                <input type="text" id="txtNombre">
+            </div>
+            <div class="field">
+                <label for="txtApellido">Apellido</label>
+                <input type="text" id="txtApellido">
+            </div>
+        </div>
+        <div class="field">
+            <label for="txtApodo">Apodo</label>
+            <input type="text" id="txtApodo">
+        </div>
+        <div class="field">
+            <label for="txtEmail">Correo Electronico</label>
+            <input type="email" id="txtEmail">
+        </div>
+        <div class="container">
+            <div class="field">
+                <label for="dateBirth">Fecha de Nacimiento</label>
+                <input type="date" id="dateBirth">
+            </div>
+            <div class="field">
+                <label for="selectGenero">Genero</label>
+                <select id="selectGenero">
+                    <option value="0">Seleccione una opcion</option>
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                    <option value="3">Otro</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="selecttProvincia">Provincia</label>
+                <select name="" id="selecttProvincia">
+                    <option value="0">Seleccione una opcion</option>
+                    <option value="1">San José</option>
+                    <option value="2">Alajuela</option>
+                    <option value="3">Cartago</option>
+                    <option value="4">Heredia</option>
+                    <option value="5">Guanacaste</option>
+                    <option value="6">Puntarenas</option>
+                    <option value="7">Limón</option>
+                </select>
+            </div>
+        </div>
+        <div class="field">
+            <p>Seleccione su nivel de ingles:</p>
+                <div>
+                    <input type="radio" name="radioIdioma" id="a1">
+                    <label for="a1" name="radioIdioma">A1</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioIdioma" id="a2">
+                    <label for="a2" name="radioIdioma">A2</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioIdioma" id="b1">
+                    <label for="b1" name="radioIdioma">B1</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioIdioma" id="b2">
+                    <label for="b2" name="radioIdioma">B2</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioIdioma" id="c1">
+                    <label for="c1" name="radioIdioma">C1</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioIdioma" id="c2">
+                    <label for="c2" name="radioIdioma">C2</label>
+                </div>
+        </div>
+                <div class="field">
+            <p>Medios de transporte principales:</p>
+                <div>
+                    <input type="checkbox" name="checkboxTransporte" id="bus">
+                    <label for="bus" name="checkboxTransporte">Autobus</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkboxTransporte" id="bike">
+                    <label for="bike" name="checkboxTransporte">Bicicleta</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkboxTransporte" id="motorcycle">
+                    <label for="motorcycle" name="checkboxTransporte">Motocicleta</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkboxTransporte" id="vehicle">
+                    <label for="vehicle" name="checkboxTransporte">Automovil</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkboxTransporte" id="other">
+                    <label for="other" name="checkboxTransporte">Otro</label>
+                </div>
+        </div>
+        <div class="field">
+            <label for="password">Contrasena</label>
+            <input type="password" id="password">
+        </div>
+        <div class="field">
+            <label for="securityPass">Pregunta de seguridad: Cual es el nombre de tu primera mascota?</label>
+            <input type="password" id="securityPass">
+        </div>
+    </form>
+</body>
+</html>

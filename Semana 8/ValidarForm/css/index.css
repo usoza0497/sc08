@@ -1,0 +1,16 @@
+#formInscripcion {
+    max-width: 500px;
+    margin: 60px auto;
+    border: 2px solid #505050;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
